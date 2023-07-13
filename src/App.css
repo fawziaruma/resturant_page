@@ -38,7 +38,55 @@ nav{
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
+  font-family: Reem Kufi;
 }
+.navabar-menu-container{
+  display: none;
+}
+.primary-button{
+  background-color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 218px;
+  height: 72px;
+  border-radius: 72px;
+  padding: 28px, 30px, 28px, 30px;
+  transition: 0.2s;
+  font-size: 1.1rem;
+}
+.primary-button:hover{
+  background-color: rgb(234,234,234);
+}
+.navbar-cart-button{
+  font-size: 27px;
+}
+/* responsive menu */
+
+@media (max-width: 1000px){
+  .navbar-link-container a{
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  /* .priamry-buton */
+  
+}
+@media (max-width: 800px){
+  .nav-logo-container{
+
+   max-width: 140px ;
+  
+  }
+  .navbar-link-container{
+    display: none;
+    
+  }
+  .navabar-menu-container{
+    display: flex;
+  }
+
+}
+
 
 
 .logo {
