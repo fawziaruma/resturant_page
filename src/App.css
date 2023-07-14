@@ -87,6 +87,86 @@ nav{
 
 }
 
+ /* home component style */
+
+.home-banner-container{
+  display: flex;
+  padding-top: 3rem;
+  position: relative;
+
+}
+.home-bannerImage-container{
+  position: absolute;
+  top: -100px ;
+  right: -170px ;
+  z-index: -2 ;
+  max-width: 700px ;
+}
+
+.home-image-section{
+  max-width: 700px;
+  
+}
+.home-text-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.primary-heading{
+  max-width: 693px;
+  color: #4C4C4C;
+  font-size: clamp(2rem,5vh,4rem);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .logo {

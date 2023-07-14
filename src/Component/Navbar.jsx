@@ -60,9 +60,9 @@ const Navbar = () => {
     <button className="primary-button" >Booking Now</button>
 </div>
 <div className="navabar-menu-container">
-<HiOutlineBars3 onClick={()=> setOpenMenu(true) } />
+<HiOutlineBars3 onClick={() => setOpenMenu(true)} />
 </div>
-<Drawer open={openMenu} onClose={()=> setOpenMenu(false)} anchor="right">
+<Drawer open={openMenu} onClose={()=> setOpenMenu(false)} anchor="top">
     <Box 
     sx={{width:250}}
     role="presentation"
