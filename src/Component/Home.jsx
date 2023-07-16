@@ -14,7 +14,7 @@ const Home = () => {
                   </div>
 
              <div className="home-text-section">
-                 <h1 className="primary-heading" > Your Favourite Food Delivered Hot & fresh  </h1>
+                 <h1 className="primary-heading" > Your Favourite Food <br /> Delivered Hot &  <br /> Fresh  </h1>
 
                  <p className="home-text-section" >
                    Healthy switcher chefs do all the prep work, like 
@@ -22,7 +22,7 @@ const Home = () => {
                    a fresh food.
                  </p>
                  <button className="secondery-button">
-                   Order Now <HiArrowRight />
+                   Order Now <HiArrowRight className="svg" />
                  </button>
              </div>
 
