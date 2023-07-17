@@ -175,6 +175,35 @@ nav{
   }
 }
 
+.about-section-container{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rem;
+  position: relative;
+
+}
+.about-background-image-container{
+  z-index: -2;
+  left: -150px;
+  position: absolute;
+  width: 331px;
+  height: 1052px;
+
+
+}
+.about-section-image-container{
+    margin-right: 1rem;
+    
+}
+
+.about-section-text-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
 
 
 
