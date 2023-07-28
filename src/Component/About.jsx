@@ -21,31 +21,33 @@ const About = () => {
                 <p className="primary-subheading"> About </p>
 
                 <h1 className="primary-heading">
-                  Food Is An Important Part Of A Balanced Diet
+                  Food Is An Important <br /> Part Of A Balanced <br /> Diet
                 </h1>
 
-                <p className="priamry-text">
-                 Lorem ipsum dolor sit amet consectetur. Non tincidunt 
-                 magna non et elit. Dolor  turpis molestie dui
-                 magnis facilisis at fringilla quam.
+                <p className="about-text">
+                Lorem ipsum dolor sit amet consectetur. Non tincidunt 
+                magna non et elit. Dolor  turpis molestie dui
+                magnis facilisis at fringilla quam.           
                 </p>
 
-                <p className="primary-text">
+                <p className="about-text">
                   Non tincidunt magna non et elit. Dolor turpis molestie 
                   dui magnis facilisis at fringilla quam.    
                 </p>
 
+                <div className="about-buttons-container">
+
+                    <button className="another-button">Learn More</button>
+
+                    <button className="watch-video-button">
+                        <BsFillPlayCircleFill/> Watch Video
+                    </button>
+
+                  </div>
+
              </div>
 
-             <div className="about-buttons-container">
-
-                <button className="secondary-button">Learn More</button>
-
-                <button className="watch-video-button">
-                    <BsFillPlayCircleFill/> Watch Video
-                </button>
-
-             </div>
+            
 
 
 
